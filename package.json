@@ -1,8 +1,8 @@
 {
   "name": "flex_dnd",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
-  "source": "src/index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LassoFer/DnD_package.git"
+    "url": "https://github.com/LassoFer/DnD_package.git"
   }
 }
