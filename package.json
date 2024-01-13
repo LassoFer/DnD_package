@@ -43,7 +43,8 @@
   "microbundle": {
     "globals": {
       "@formkit/auto-animate/react": "FormkitAutoAnimateReact"
-    }
+    },
+    "format": "esm"
   },
   "repository": {
     "type": "git",
