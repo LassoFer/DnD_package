@@ -1,4 +1,4 @@
-import { useAutoAnimate } from '@formkit/auto-animate/react';
+import * as FormkitAutoAnimateReact from '@formkit/auto-animate/react';
 import { useEffect, useState } from 'react';
 import {
   addEmpty,
@@ -13,7 +13,7 @@ import {
 export default function DragAndDrop({ duration, list_, contRef, elementclassName, containerclassName }) {
   const [list, setList] = useState(list_);
   const [draggedElement, setDraggedElement] = useState(undefined);
-  const [parent, enableAnimations] = useAutoAnimate({ duration: duration });
+  const [parent, enableAnimations] = FormkitAutoAnimateReact.useAutoAnimate({ duration: duration });
 
   useEffect(() => {
     createElementReferences(list_, setList);
