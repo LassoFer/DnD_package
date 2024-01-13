@@ -1,5 +1,5 @@
 {
-  "name": "flexdnd",
+  "name": "flex_dnd",
   "version": "0.1.0",
   "type": "module",
   "source": "src/index.js",
